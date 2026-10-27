@@ -1,0 +1,36 @@
+{
+  "name": "mongodb-crud-operations",
+  "version": "1.0.0",
+  "description": "MongoDB CRUD Operations Practical Lab: Create, Read (Find & Query Operators), Update ($set, $inc, $unset, $push, $addToSet, updateOne, updateMany), and Delete (deleteOne, deleteMany vs drop)",
+  "main": "scripts/06_crud_runner.js",
+  "scripts": {
+    "seed": "mongosh crudLabDB scripts/01_create_seed.js",
+    "test:read": "mongosh crudLabDB scripts/02_read_operations.js",
+    "test:update-single": "mongosh crudLabDB scripts/03_update_single.js",
+    "test:update-many": "mongosh crudLabDB scripts/04_update_many.js",
+    "test:delete": "mongosh crudLabDB scripts/05_delete_operations.js",
+    "test:all": "mongosh crudLabDB scripts/06_crud_runner.js"
+  },
+  "keywords": [
+    "mongodb",
+    "crud",
+    "create",
+    "read",
+    "find",
+    "update",
+    "delete",
+    "mongosh",
+    "set",
+    "inc",
+    "unset",
+    "push",
+    "addToSet",
+    "updateOne",
+    "updateMany",
+    "deleteOne",
+    "deleteMany",
+    "drop"
+  ],
+  "author": "Sunny Kumar Dev",
+  "license": "MIT"
+}
